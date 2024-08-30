@@ -1,0 +1,175 @@
+#one {
+    background-image: url(./vegetable-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+span {
+    display: inline-block;
+}
+
+.one-organic {
+    font-size: 12px;
+    color: darkgray;
+    padding-top: 12px;
+    letter-spacing: 2px;
+}
+
+.active {
+    font-size: 13px;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    margin-top: 12px;
+}
+
+.one-homebar {
+    margin-left: 295px;
+}
+#two{
+    margin-top: 72px;
+    margin-bottom: 50px;
+}
+
+
+.two-text {
+    margin: 1px 200px;
+}
+
+.two-image {
+    width: 100%;
+}
+.two-image >img{
+    width: 100%;
+}
+
+#eight,
+#three {
+    background-color: #f7f6f2;
+}
+
+.three-text {
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+
+.three-btns {
+    padding: 2px 11px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+    color: darkgray;
+
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.three-btns:hover {
+    padding: 2px 11px;
+    background-color: rgb(31, 188, 29);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.btns-text {
+    color: rgb(90, 89, 89);
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.upper {
+    width: 100%;
+    height: 70%;
+    background-color: #e7e6e4;
+    border-radius: 15px;
+}
+
+.upper>img {
+    width: 240px;
+    padding: 20px;
+    padding-top: 60px;
+}
+.seven-text, .eight-text,
+.six-text,
+.five-text,
+.four-text{
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(109, 109, 109);
+}
+
+.four-image{
+    width: 100%;
+}
+
+.four-para{
+    color: darkgray;
+}
+
+.seven-text{
+    margin-bottom: 0px;
+    padding-top: 60px;
+}
+
+.seven-image img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#eight{
+    padding: 80px 0px;
+}
+
+.eight-images img{
+    border-radius: 8px;
+}
+#six{
+    background-color: #f7f6f2;
+    margin: 40px 0px;
+    padding: 60px 0px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+.line-break{
+    display:block;
+}
+.intsa-photo{
+    margin: 0px;
+}
+
+@media screen and (min-width:576px) {
+    .line-break{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 769px) {
+    .intsa-photo{
+        margin: 10px 0px;
+    }
+    .seven-image{
+        margin-left: 25%;
+    }
+   
+    
+}
